@@ -6,7 +6,8 @@ from concurrent.futures import ThreadPoolExecutor, wait
 
 _BASE_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__)))
 _VALID_DLL_PATH = [os.path.join(_BASE_PATH, '..', 'build', 'Release', 'varflow.dll'),
-                   os.path.join(_BASE_PATH, '..', 'build', 'libvarflow.so')]
+                   os.path.join(_BASE_PATH, '..', 'build', 'libvarflow.so'),
+                   os.path.join(_BASE_PATH, '..', 'build', 'libvarflow.dylib')]
 
 _VARFLOW_DLL_PATH = None
 for p in _VALID_DLL_PATH:
