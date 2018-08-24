@@ -114,3 +114,9 @@ hko_data/radarPNG/
 hko_data/radarPNG_mask/
 
 trained_model
+
+# caches of local downloaded models
+experiments/hko/nips2017_pretrained.zip
+experiments/hko/ConvGRU-nobal/
+experiments/hko/ConvGRU/
+experiments/hko/TrajGRU/
