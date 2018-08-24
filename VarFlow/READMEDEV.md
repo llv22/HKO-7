@@ -6,6 +6,7 @@ cd <git repository>/VarFlow/
 mkdir build
 cd build
 cmake ..
+make
 ```
 ## 2. Library refinement
 in Line 8 of VarFlow/varflow.py:  
@@ -22,6 +23,6 @@ python setup.py develop
 
 ## 4. Run testing
 ```bash
-cd <git repository>/VarFlow/
+cd <git repository>/VarFlow/varflow
 python varflow.py
 ```
