@@ -161,7 +161,7 @@ You can refer to the CSI, HSS, B-MSE, B-MAE scores in the saved evaluation file 
 
 Running Experiments in the Paper
 --------------------------------
-Refer to the [MovingMNIST++ Experiment README](https://github.com/sxjscience/HKO-7/tree/master/experiments/movingmnist) and [HKO-7 Experiment README](https://github.com/sxjscience/HKO-7/tree/master/experiments/hko)
+Refer to the [MovingMNIST++ Experiment README](https://github.com/llv22/HKO-7/tree/master/experiments/movingmnist) and [HKO-7 Experiment README](https://github.com/llv22/HKO-7/tree/master/experiments/hko)
 
 FAQ
 ---

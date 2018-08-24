@@ -26,7 +26,8 @@ __C.HKO_DATA_BASE_PATH = os.path.join(__C.ROOT_DIR, 'hko_data')
 
 # Append your path to the possible paths
 possible_hko_png_paths = [os.path.join('E:\\datasets\\HKO-data\\radarPNG\\radarPNG'),
-                          os.path.join(__C.HKO_DATA_BASE_PATH, 'radarPNG')]
+                          os.path.join(__C.HKO_DATA_BASE_PATH, 'radarPNG'), 
+                          "~/Documents/05_machine_learning/competition/AI4Meteorology/data/TRAIN/SRAD2018_TRAIN_001"]
 possible_hko_mask_paths = [os.path.join('E:\\datasets\\HKO-data\\radarPNG\\radarPNG_mask'),
                            os.path.join(__C.HKO_DATA_BASE_PATH, 'radarPNG_mask')]
 # Search for the radarPNG
