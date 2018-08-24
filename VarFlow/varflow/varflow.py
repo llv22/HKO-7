@@ -77,9 +77,7 @@ class VarFlowFactory(object):
                       I2.ctypes.data_as(ctypes.c_void_p))
 
     def batch_calc_flow(self, I1, I2):
-        """Calculate the optical flow from two
-
-        Parameters
+        """Calculate the optical flow from two Parameters
         ----------
         I1 : np.ndarray
             Shape: (batch_size, H, W)
@@ -107,8 +105,7 @@ class VarFlowFactory(object):
         velocity = np.zeros((batch_size, 2, height, width), dtype=np.float32)
         future_objs = []
         for i in range(batch_size):
-            obj = self._varflow_executor_pool.submit(
-                self._base_varflow_call, velocity[i], I1[i], I2[i], width, height)
+            obj = self._varflow_executor_pool.submit(self._base_varflow_call, velocity[i], I1[i], I2[i], width, height)
             future_objs.append(obj)
         wait(future_objs)
         return velocity
